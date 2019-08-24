@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">Formulário</h1>
+    <section class="formul">
+            <p id="description"> Preencha o formulário</p>
+            <form id="survey-form">
+                <div class="row">
+                    <div class="labels">
+                        <label for="name" id="name-label">* Nome:</label>
+                    </div class="labels">
+                    <div class="direitaTab">
+                        <input type="text" class="inpfields" name="name" id="name" placeholder="Insira seu Nome" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="labels">
+                        <label for="email" id="email-label">* Email:</label>
+                    </div>
+                    <div class="direitaTab">
+                        <input type="email" class="inpfields"  name="email" id="email" placeholder="Insira seu Email" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="labels">
+                        <label for="number" id="number-label">* Idade:</label>
+                    </div>
+                    <div class="direitaTab">
+                        <input class="num"type="number" class="inpfields" name="idade" id="number" placeholder="Idade" min="0" max="100" required><br>
+                    </div>
+                </div>
+            
+                    <div class="row">
+                        <div class="labels">
+                            <label for="">Selecione uma opção</label>
+                        </div>
+                            <div class="direitaTab">
+                                <select id="dropdown" name="currentPos" style="width: 150px;" class="dropdown">
+                                    <option disabled value>Select an option</option>
+                                    <option value="student">Student</option>
+                                    <option value="job">Full Time Job</option>
+                                    <option value="learner">Full Time Learner</option>
+                                    <option value="preferNo">Prefer not to say</option>
+                                    <option value="other">Other</option>
+                                </select>  
+                            </div>
+                    </div>
+                    
+                
+                <div class="row">
+                     <div class="labels">
+                        <label>Você recomendaria nosso site para algum amigo ?</label>
+                    </div>
+                    <div class="direitaTab">
+                            <ul style="list-style: none;">
+                                <li class="radio"><label for="">Sim<input type="radio" name="recomendar" id="" class="selecionar"></label></li>
+                                <li class="radio"><label for="">Não<input type="radio" name="recomendar" id="" class="selecionar"></label></li>
+                                <li class="radio"><label for="">Talvez<input type="radio" name="recomendar" id="" class="selecionar"></label></li>
+                            </ul>
+                        </div>
+                    
+                </div>
+                <div class="row">
+                    <div class="labels">
+                        <label>Descreva sua dúvida</label>
+                    </div>
+                    <div class="direitaTab">
+                        <textarea class='txt' placeholder="Digite sua dúvida para prosseguirmos..."></textarea>
+                    </div>
+                </div>
+
+                <button type="submit" class="submit" >Submit</button>
+             
+                
+            </form>
+    </section>
+    
+</body>
+</html>

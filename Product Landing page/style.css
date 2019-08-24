@@ -1,0 +1,37 @@
+body {
+    font-size: 40px;
+    padding: 0px;
+    margin: 0px;  
+    box-sizing: border-box; 
+    background-color: rgb(235, 231, 231);
+}
+
+
+#header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background: rgb(249, 252, 249);
+}
+#header-img{
+    width: 400px;
+    display: inline;
+    float: left;
+}
+#nav-bar {
+    float: right; 
+    border: 1px solid red;
+    height: 50px;
+}
+
+.nav-link a{
+    font-size: 1.6rem;
+    color: rgb(0, 0, 0);
+    text-decoration: none;  
+}
+.nav-link {
+    display: inline;
+}
+ul {
+    list-style-type: none;
+}
