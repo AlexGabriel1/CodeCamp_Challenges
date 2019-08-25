@@ -1,6 +1,7 @@
 body {
     background-color: whitesmoke;
     box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 .wrapper {
     position: relative;
@@ -40,15 +41,6 @@ nav > ul {
 }
 
 
-
-
-
-
-.container {
-    max-width: 1000px;
-    width: 100%;
-    margin: 0 auto;
-}
 #conteudo {
     display: flex;
     flex-direction: column;
@@ -58,6 +50,12 @@ nav > ul {
     height: 200px;
     margin-top: 50px;
 }
+#conteudo input[type="email"] {
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+  }
+
 
 
 /* https://www.bestcssbuttongenerator.com */
@@ -81,7 +79,7 @@ nav > ul {
 	cursor:pointer;
 	color:#333333;
 	font-family:Arial;
-	font-size:15px;
+	font-size:18px;
 	font-weight:bold;
 	padding:6px 24px;
 	text-decoration:none;
@@ -107,8 +105,20 @@ nav > ul {
 .grid {
     display: flex;
 }
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+
+
+
+
 #ferramentas {
     margin-top: 30px;
+
 }
 #ferramentas .descr {
   display: flex;
@@ -120,27 +130,120 @@ nav > ul {
   padding: 5px;
   padding-left: 50px;
   font-size: 1.2rem;
+  margin-top: 30px;
   
 }
+.descr h2{
+    color: #f5b143
+}
+
 #ferramentas .icones {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 125px;
     width: 2vw;
+    margin-top: 30px;
     color: darkorange;
    
-  }
+}
+
+#demo {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+
+
+#precos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    align-items: center;
+    flex-direction: row;
+     
+}
 
 
 
 
+.card {
+    text-align: center;
+    width: 15vw;
+    height: 15vw;
+    border: 2px solid gray;
+    font-size: 1.5rem;
+    
+}
+.card h2 {
+    background: white;
+    margin-top: 0px;     
+}
+.card h3 {
+    color: #6dea36;
+}
 
-#conteudo input[type="email"] {
-    max-width: 275px;
+.card:hover{
+    box-shadow: 5px 5px 3px 5px;
+}
+
+footer {
+    text-align: center;
+    background: rgb(109, 109, 109);
+    height: 2vw;
+    max-width: 1000px;
     width: 100%;
-    padding: 5px;
+    margin: 0 auto;
+
+}
+@media (max-width: 900px) 
+{
+  nav > ul {
+      display: flex;
+      flex-direction: column;
   }
+  #precos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+}
+
+@media (max-width: 800px) {
+    #preço {
+      flex-direction: column;
+    }
+    .card {
+      max-width: 300px;
+      width: 100%;
+      margin: 0 auto;
+      margin-bottom: 10px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

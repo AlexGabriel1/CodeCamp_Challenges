@@ -9,6 +9,8 @@
     <title>Document</title>
 </head>
 <body>
+
+
     <div class="wrapper">
         <header id="header">
                 <div class="logo">
@@ -17,8 +19,8 @@
             <nav id="nav-bar"> 
                 <ul>
                     <li class="nav-link"><a href="#ferramentas">Ferramentas</a></li>
-                    <li class="nav-link"><a href="">Como funciona</a></li>
-                    <li class="nav-link"><a href="">Preços</a></li>
+                    <li class="nav-link"><a href="#demo">Como funciona</a></li>
+                    <li class="nav-link"><a href="#precos">Preços</a></li>
                 </ul> 
             </nav>
         </header>
@@ -27,11 +29,10 @@
         <section id="conteudo" >
             <h2>Os melhores produtos você encontra aqui!!</h2>
             <form id="form">
-                <input type="email" placeholder="Digite seu email"><br>
-                <input type="button" value="Enviar" class="bottao">
+                <input type="email" id="email" placeholder="Digite seu email" size="30" required><br>
+                <input type="button" value="Enviar" class="bottao" id="submit">
             </form>
         </section>
-
         <div class="container"> 
             <section id="ferramentas">
                 <div class="grid">
@@ -44,38 +45,79 @@
                         <p>Os melhores produtos são feitos aqui</p>
                     </div>
                 </div>
-
-
-
-
                 <div class="grid">
                         <div class="icones"> 
                             <img src="https://icon-icons.com/icons2/1091/PNG/128/presentation_78403.png" alt="">
-
                         </div>
                         <div class="descr">
-                            <h2>Planejamento</h2>
-                            
+                            <h2>Planejamento</h2>                            
                             <p>Nosso Planejamento de acordo com sua demanda, sempre procurando atender suas expectativas</p>
                         </div>
                     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
+                <div class="grid">
+                    <div class="icones"> 
+                        <img src="https://icon-icons.com/icons2/1091/PNG/128/handshake_78379.png" alt="">
+                    </div>
+                        <div class="descr">
+                            <h2>Suporte</h2>
+                            <p>Voluptatum est ut animi rem harum. Enim officiis nihil corrupti dignissimos velit quia. Odio et aliquid magni aliquam id velit et. Voluptas facilis est tempora aut qui quis repellendus tempore sunt. Eum tenetur nisi non odit eum ratione.</p>
+                        </div>
+                    </div>
             </section>     
-
-
         </div>
+
+        <!-- Video de demonstração do produto -->
+        <div class="container">
+            <section id="demo">
+               
+                    <div class="video">
+                            <iframe width="480" height="320"
+                            src="https://www.youtube.com/watch?v=fB8TyLTD7EE">
+                            </iframe>
+                    </div>
+                
+            </section>
+        </div>
+
+
+        <!-- Preços -->
+        <div class="container">
+            <section id="precos">
+                <div class="card">
+                    <h2> Plano 1</h2>
+                    <h3>$ 300</h3>
+                    <p>Lorem Ipsum</p>
+                    <p>Lorem Ipsum</p>
+                    <input type="button" value="Selecionar" class="bottao">
+                </div>
+                <div class="card">
+                        <h2>Plano 2</h2>
+                        <h3>$ 600</h3>
+                        <p>Lorem Ipsum</p>
+                        <p>Lorem Ipsum</p>
+                        <input type="button" value="Selecionar" class="bottao">
+                    </div>
+                <div class="card">
+                    <h2> Plano 3</h2>
+                    <h3>$ 900</h3>
+                    <p>Lorem Ipsum</p>
+                    <p>Lorem Ipsum</p>
+                    <input type="button" value="Selecionar" class="bottao">
+                </div>
+            </section>
+        </div>
+
+
+
+
+        <footer>
+            
+                <h2>Todos direitos reservados 2019 © bla bla bla  <a href="https://github.com/AlexGabriel1/">Github</a></h2>
+
+        </footer>
+        
+
+
 
         
 
