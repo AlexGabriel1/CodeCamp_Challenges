@@ -1,37 +1,152 @@
 body {
-    font-size: 40px;
-    padding: 0px;
-    margin: 0px;  
-    box-sizing: border-box; 
-    background-color: rgb(235, 231, 231);
+    background-color: whitesmoke;
+    box-sizing: border-box;
 }
-
-
-#header {
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    background: rgb(249, 252, 249);
+.wrapper {
+    position: relative;
+}
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  min-height: 75px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #eee;
 }
 #header-img{
+    margin-right: 600px;
+    padding-top: 9px;
     width: 400px;
-    display: inline;
-    float: left;
 }
-#nav-bar {
-    float: right; 
-    border: 1px solid red;
-    height: 50px;
+.logo {
+    width: 60vw;
 }
-
 .nav-link a{
     font-size: 1.6rem;
     color: rgb(0, 0, 0);
     text-decoration: none;  
 }
 .nav-link {
-    display: inline;
+    display: inline-block;
 }
-ul {
-    list-style-type: none;
+nav > ul {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
+
+
+
+
+
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+#conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 50px;
+}
+
+
+/* https://www.bestcssbuttongenerator.com */
+.bottao {
+	-moz-box-shadow:inset 0px 1px 0px 0px #fff6af;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fff6af;
+	box-shadow:inset 0px 1px 0px 0px #fff6af;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+	background:-moz-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-webkit-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-o-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-ms-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23',GradientType=0);
+	background-color:#ffec64;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #ffee66;
+    margin-top: 20px;
+}
+.bottao:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64));
+	background:-moz-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-webkit-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-o-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-ms-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64',GradientType=0);
+	background-color:#ffab23;
+}
+.bottao:active {
+	position:relative;
+	top:1px;
+}
+
+
+.grid {
+    display: flex;
+}
+#ferramentas {
+    margin-top: 30px;
+}
+#ferramentas .descr {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  justify-content: center;
+  height: 125px;
+  width: 80vw;
+  padding: 5px;
+  padding-left: 50px;
+  font-size: 1.2rem;
+  
+}
+#ferramentas .icones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 2vw;
+    color: darkorange;
+   
+  }
+
+
+
+
+
+#conteudo input[type="email"] {
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+  }
+
+
+
+
+
+
+
+
+
