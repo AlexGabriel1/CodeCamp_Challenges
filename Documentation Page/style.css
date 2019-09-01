@@ -1,0 +1,20 @@
+html,body {
+    color: #4d4e53;
+    background-color: #ffffff;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+
+nav ul {
+    list-style-type: none; 
+}
+nav a {
+    text-decoration: none;
+}
+#navbar {
+    position: fixed;
+    left: 0px;
+    border-right: solid rgb(75, 77, 77);
+    padding-right: 30px;
+    color: rgb(255, 0, 0);
+}
