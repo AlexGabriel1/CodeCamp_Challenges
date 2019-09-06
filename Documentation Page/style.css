@@ -10,11 +10,16 @@ nav ul {
 }
 nav a {
     text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+nav li {
+    border-bottom: 4px solid #4d4e53;
+    margin: 40px;
+    margin-left: -30px;
 }
 #navbar {
     position: fixed;
     left: 0px;
     border-right: solid rgb(75, 77, 77);
-    padding-right: 30px;
     color: rgb(255, 0, 0);
 }
