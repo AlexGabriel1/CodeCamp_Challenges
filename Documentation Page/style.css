@@ -8,6 +8,13 @@ html,body {
 ul {
     list-style-type: none; 
 }
+
+section ul {
+    list-style-type: disc; 
+}
+
+
+
 #navbar a {
     text-decoration: none;
     color: rgb(0, 0, 0);
@@ -40,8 +47,7 @@ ul {
 }
 .main-section{
     width: 880px;
-    border: 1px solid red;
     font-size: 16px;
     position: absolute;
-    left: 30%;
+    left: 20%;
 }
