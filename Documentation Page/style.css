@@ -37,17 +37,18 @@ section ul {
     left: 0px;
     top: 0px;
     color: rgb(255, 0, 0);
-    border-right: 5px solid rgb(15, 15, 15);
+    border-right: 5px solid rgb(14, 14, 14);
     width: 300px;
 }
 
 
 #main-doc {
-    
+   
 }
 .main-section{
     width: 880px;
     font-size: 16px;
     position: absolute;
     left: 20%;
+    
 }
